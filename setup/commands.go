@@ -17,5 +17,13 @@ func Commands(app *cli.App) {
 				commands.ExecuteBash(c)
 			},
 		},
+		{
+			Name:    "listen",
+			Aliases: []string{"la"},
+			Usage:   "ask a question to open ai",
+			Action: func(c *cli.Context) {
+				commands.Listen(c)
+			},
+		},
 	}
 }

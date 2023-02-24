@@ -19,6 +19,8 @@ Here are a few cool commands developed, feel free to develop more.
 ### Open Ai ask
 Command that asks question to open arch, it is necessary to have a open ai token to use.
 
+### Open Ai ask with Assembly AI
+Resolves audio input and asks to open ai
+
 ## TO DO
 - Tests 
-- Output layer to dynamic handle output commands dynamically
